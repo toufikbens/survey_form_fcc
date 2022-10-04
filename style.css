@@ -1,0 +1,43 @@
+body {
+  font-family: "comic sans ms" !important;
+  background-color: rgb(147, 180, 209) !important;
+  color: white !important;
+}
+#title {
+  font-size: 32px;
+  text-align: center;
+  margin: 6% auto 3% auto;
+  font-weight: normal;
+}
+#description {
+  text-align: center;
+  font-size: 120%;
+  margin: auto auto 7% auto;
+  font-style: italic;
+}
+form {
+  background-color: rgb(34, 66, 94);
+  border-radius: 2%;
+  padding: 8%;
+}
+input {
+  border: 1px solid rgb(34, 66, 94);
+  border-radius: 5px;
+}
+input:hover {
+  border: 2px solid black;
+}
+select {
+  border: 1px solid rgb(34, 66, 94);
+  border-radius: 5px;
+}
+textarea {
+  border: 1px solid rgb(34, 66, 94);
+  border-radius: 5px;
+}
+textarea:hover {
+  border: 2px solid black;
+}
+#submit {
+  background-color: rgb(179, 184, 189);
+}
